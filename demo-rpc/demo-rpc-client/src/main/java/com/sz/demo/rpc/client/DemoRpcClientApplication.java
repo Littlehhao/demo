@@ -1,13 +1,13 @@
-package com.sz.demo;
+package com.sz.demo.rpc.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class DemoRpcClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(DemoRpcClientApplication.class, args);
     }
 
 }
